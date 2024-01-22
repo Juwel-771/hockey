@@ -1,3 +1,9 @@
 *{
     font-family: 'Manrope', sans-serif;
 }
+
+.details-text{
+    color: rgba(19, 19, 24, 0.60);    ;
+    font-size: 16px;
+    font-weight: 500;
+}
