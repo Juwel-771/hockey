@@ -23,3 +23,11 @@
     width: 100vw;
     filter: brightness(50%);
 }
+footer{
+    background-color: #131313;
+}
+footer .other-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
