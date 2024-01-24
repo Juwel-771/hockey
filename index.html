@@ -14,18 +14,18 @@
 </head>
 <body>
     <header class="lg:mx-24">
-        <nav>
-            <div class="navbar bg-base-100">
+        <nav class="">
+            <div class="navbar bg-base-100 ">
                 <div class="navbar-start">
-                  <a class="btn btn-ghost text-2xl font-extrabold">Hockey's</a>
+                  <a class="btn btn-ghost text-2xl font-extrabold">Hockey<span class="text-red-600">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-red-600">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Page</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a class="text-red-600 font-medium">Home</a></li>
+                    <li><a class="font-medium">About</a></li>
+                    <li><a class="font-medium">Page</a></li>
+                    <li><a class="font-medium">Blog</a></li>
+                    <li><a class="font-medium">Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
@@ -34,6 +34,7 @@
                   <a class="btn bg-red-500 text-white font-bold">Get Ticket</a>
                 </div>
               </div>
+              
         </nav>
         <div class="carousel w:full lg:w-full">
             <div id="slide1" class="carousel-item relative w-full">
@@ -135,7 +136,7 @@
           <div class="text-center">
                 <h1 class="text-xl lg:text-4xl font-extrabold">Our New Products</h1>
                 <p class="details-tex mt-6">Check out the brand new Hockey Ranges for the 2022/2023 hockey season. New ranges include Adidas, Asics, Brabo, Grays, JDH, OBO and Osaka.</p>
-            </div>
+          </div>
             
             <!-- product card -->
             <div class="mt-6 flex flex-col lg:mt-20 lg:grid grid-cols-2 grid-rows-3 gap-8">
@@ -368,6 +369,81 @@
               </div>
             </div>
 
+        </section>
+
+        <!-- client question section -->
+        <section class="my-20 lg:my-28">
+          <div class="text-center">
+            <h1 class="text-xl lg:text-4xl font-extrabold">Clients Question</h1>
+            <p class="details-tex mt-6">Here are the top questions you'd ask your customers · What can my company do to <br> better serve your needs? </p>
+          </div>
+
+          <!-- image-question-and-question -->
+          <div class="flex gap-10 p-8 border-2 mt-10 border-slate-200 rounded-2xl">
+            <div>
+              <img src="./images/11.png" alt="">
+            </div>
+            <div>
+              <div class="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Our Equipment              
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">This usually includes a helmet, shoulder pads/chest protector, elbow pads, mouth guard, protective gloves, heavily padded shorts, a 'jock' athletic protector. </p>
+                </div>
+              </div>
+              <hr>
+              <div class="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Hockey Training                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">At Hockey Training we provide players with hockey training articles, videos, and workout programs to help them improve their hockey game.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Private Lessons                
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">With private lessons, you can definitely increase your skill level...but you also need to supplement it with real physical competition as well, whether in games</p>
+                </div>
+                <hr>
+              </div>
+              <div class="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Ski Touring                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">Find your perfect Val d'Isere private ski lessons. Book directly or with help from our local experts. Whether you're a complete beginner or a seasoned pro .</p>
+                </div>
+              </div>
+              <hr>
+              <div class="collapse collapse-plu">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Booking                
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">While the tickets will be booked online, people will have to get their tickets confirmed with a physical copy at a box office at the stadiums. </p>
+                </div>
+              </div>
+              <hr>
+              <div class="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-bold">
+                  Pricings                
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-[16px] font-medium text-[#13131899]">The average price of NHL tickets is generally around $90 to $130.</p>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
         </section>
 
         <!-- GET IN TOUCH SECTIONS -->
